@@ -5,7 +5,8 @@ echo "removing .bashrc"
 sudo rm ~/.bashrc
 echo "adding new .bashrc"
 sudo cp ~/.blacksudo/.bashrc ~/.bashrc
-sudo cp ~/.blacksudo/push.sh /bin/push.sh
+sudo cp ~/.blacksudo/push.sh /bin/push
+sudo chmod +x /bin/push
 echo "byy...."
 sudo rm -rf ~/.blacksudo
 clear
